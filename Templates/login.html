@@ -1,0 +1,34 @@
+{% load static %}
+<html>
+<head>
+    <meta charset='utf-8'>
+     <meta http-equiv='X-UA-Compatible' content='IE-edge'>
+       <title>Javascript Login Form Validation</title>
+        <meta name='viewport' content=width-device-width', initial-scale=1>
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="{% static 'login/css/style.css' %}"/>
+</div>
+</head>
+<div class="container">
+<div class="main">
+<h2>Login Form Validation</h2>
+
+<form action="{% url 'Register:login' %}" method="POST">
+        {% csrf_token %}
+      <label>User Name :</label>
+      <input type="text" name="username" placeholder ="Username"/>
+      <label>Password :</label>
+      <input type="password" name="password" placeholder ="Password"/>
+      <div style="text-align:center">  
+                <input type="submit" />
+
+            </div>  
+</form>
+</div>
+       {% for messsage in messages %}
+        <h3>{{message}}</h3>
+        {% endfor %}
+</div>
+</body>
+
+</html>

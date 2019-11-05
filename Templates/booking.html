@@ -1,0 +1,202 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script/jquery-1.8.1.min.js"></script>
+    <script type="text/javascript" src="script/my_script.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Travel Booking Form </title>
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="{% static 'Booking/css/bootstrap.min.css' %}" />
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="{% static 'Booking/css/style.css' %}" />
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="{% static 'Booking/https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js' %}"></script>
+		  <script src="{% static 'Booking/https://oss.maxcdn.com/respond/1.4.2/respond.min.js' %}"></script>
+		<![endif]-->	
+	</head>
+	<style>
+			.qty .count {
+				color: #000;
+				display: inline-block;
+				vertical-align: top;
+				font-size: 25px;
+				font-weight: 700;
+				line-height: 30px;
+				padding: 0 2px
+				;min-width: 35px;
+				text-align: center;
+			}
+			.qty .plus {
+				cursor: pointer;
+				display: inline-block;
+				vertical-align: top;
+				color: white;
+				width: 30px;
+				height: 30px;
+				font: 30px/1 Arial,sans-serif;
+				text-align: center;
+				border-radius: 50%;
+				}
+			.qty .minus {
+				cursor: pointer;
+				display: inline-block;
+				vertical-align: top;
+				color: white;
+				width: 30px;
+				height: 30px;
+				font: 30px/1 Arial,sans-serif;
+				text-align: center;
+				border-radius: 50%;
+				background-clip: padding-box;
+			}
+			div {
+				text-align: center;
+			}
+			.minus:hover{
+				background-color: #717fe0 !important;
+			}
+			.plus:hover{
+				background-color: #717fe0 !important;
+			}
+			/*Prevent text selection*/
+			span{
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+			}
+			input{  
+				border: 0;
+				width: 2%;
+			}
+			input::-webkit-outer-spin-button,
+			input::-webkit-inner-spin-button {
+				-webkit-appearance: none;
+				margin: 0;
+			}
+			input:disabled{
+				background-color:white;
+			}
+			select.form-control:not([size]):not([multiple]) {
+				height: calc(2.25rem + 21px);
+			}
+			.booking-form .form-header h1 {
+				font-size: 36px;
+				text-transform: uppercase;
+				font-weight: 700;
+				color: #ffc001;
+				margin: 29px;
+			}
+
+
+	</style>
+<body>
+	<div id="booking" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="booking-form">
+						<div class="form-header">
+							<h1>Book a Travel Ticket</h1>
+						</div>
+					    <form action ="{% url 'Register:booked' %}" method="POST" id="booking_form">
+							{% csrf_token %}
+
+                            <div>
+                                <button id="add"    class="count">Add </button>
+                                <input type="hidden" name="hiddenVal" id="hiddenVal" value="1">
+                                <button id="remove" class="count">Remove </button>
+                            </div>
+							<div id="form_data">
+									<div id="clone_div-1">
+											<div class="row">
+													<div class="col-sm-6">
+														<div class="form-group">
+															<span class="form-label">First Name</span>
+															<input class="form-control" type="text" name="firstname-1" id="firstname-1" placeholder="Enter your Firstname"  required>
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="form-group">
+															<span class="form-label">Last Name</span>
+															<input class="form-control" type="text" name="lastname-1" id="lastname-1" placeholder="Enter your Last name" required>
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="form-group">
+															<span class="form-label">Email</span>
+															<input class="form-control" type="email" name="email-1" id="email-1" placeholder="Enter your email" required>
+														</div>
+													</div>
+												</div>
+												<div class="form-group">
+													<span class="form-label">Destination</span>
+													<select class="form-control" type="text" name="destination-1" id="destination-1" required>
+															<option value ="Mumbai">Mumbai</option>
+															<option value ="Banglore">Banglore</option>
+															<option value ="Chennai">Chennai</option>
+															<option value ="Madras">Madras</option>
+															<option value ="Delhi">Delhi</option>
+															<option value ="Goa">Goa</option>
+													</select>
+												</div>
+												<div class="row">
+													<div class="col-sm-5">
+														<div class="form-group">
+															<span class="form-label">Pickup Date</span>
+															<input type="text" class="form-control" id="date-1" name="date-1" required>
+														</div>
+													</div>
+												</div>
+											</div>
+										 </div>
+							     <div class="form-btn">
+								<button type="submit" class="submit-btn">Book Now</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+$(document).ready( function() {
+     var record_count = 1;
+     $("#add").bind('click', function() {
+         var counter = parseInt($("#hiddenVal").val());
+         counter ++;
+         record_count = record_count + 1;
+        $("#hiddenVal").val(counter);
+     $("#clone_div-1").clone(true, true).appendTo("#form_data").attr("id", "clone_div-"+record_count);
+     $("#clone_div-"+record_count).find("input[type=text], input[type=email], select").val("").each(function () {
+         var id = $(this).attr("id").split("-");
+         var newID = id[0]+"-"+record_count;
+         $(this).attr("id", newID);
+         $(this).attr("name", newID);
+     })
+ });
+
+   $("#remove").bind('click', function() {
+       var counter = parseInt($("#hiddenVal").val());
+       counter --;
+       $("#hiddenVal").val(counter)
+       $("#clone_div-"+record_count).remove();
+       record_count = record_count - 1;
+
+    });
+});
+
+</script>
+<!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
