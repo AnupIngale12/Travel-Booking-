@@ -1,35 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="73694b75-d43a-4c06-8ea1-e48824486a9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Travel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Travel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="73694b75-d43a-4c06-8ea1-e48824486a9c" name="Default Changelist" comment="Update Code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dest/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dest/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dest/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dest/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dest/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dest/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dest/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dest/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dest/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/admin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/booked.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/booking.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/dest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +30,6 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>clone_div</find>
-      <find>#clone_div</find>
-      <find>hiddenVal</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/search</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,6 +106,14 @@
       <workItem from="1572953298575" duration="201000" />
       <workItem from="1572954152943" duration="638000" />
     </task>
+    <task id="LOCAL-00001" summary="Update Code">
+      <created>1598731135523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598731135523</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -155,6 +142,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Code" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="418" y="190" width="1084" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598730560304">
       <screen x="0" y="32" width="1920" height="1000" />
@@ -168,6 +159,10 @@
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
     <state x="441" y="167" key="SettingsEditor/0.32.1920.1000@0.32.1920.1000" timestamp="1598730402408" />
+    <state x="555" y="268" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1598731136489">
+      <screen x="0" y="32" width="1920" height="1000" />
+    </state>
+    <state x="555" y="268" width="800" height="524" key="Vcs.Push.Dialog.v2/0.32.1920.1000@0.32.1920.1000" timestamp="1598731136489" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
