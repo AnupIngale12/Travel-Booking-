@@ -21,7 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="73694b75-d43a-4c06-8ea1-e48824486a9c" name="Default Changelist" comment="Update Code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel/a.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel/wsgi.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="325e5341-b17d-49d4-9e19-788833380b15" />
   <component name="ProjectId" id="1T8mVSSGB3RoY72oVeL3v6n870G" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,13 +47,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../College_Site/col_web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
-    <configuration name="venv_travel" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="venv_travel" type="Python.DjangoServer" factoryName="Django server">
       <module name="Travel" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,17 +61,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/../venv_travel/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
   </component>
@@ -105,6 +112,7 @@
       <workItem from="1572952291558" duration="891000" />
       <workItem from="1572953298575" duration="201000" />
       <workItem from="1572954152943" duration="638000" />
+      <workItem from="1599109020599" duration="347000" />
     </task>
     <task id="LOCAL-00001" summary="Update Code">
       <created>1598731135523</created>
@@ -113,11 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1598731135523</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update Code">
+      <created>1598731522132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598731522132</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1730000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -129,7 +141,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -141,28 +153,45 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update Code" />
     <option name="LAST_COMMIT_MESSAGE" value="Update Code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="418" y="190" width="1084" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598730560304">
+    <state x="418" y="190" width="1084" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599109340936">
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
-    <state x="418" y="190" width="1084" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1920.1000@0.32.1920.1000" timestamp="1598730560304" />
-    <state x="743" y="290" width="424" height="480" key="FileChooserDialogImpl" timestamp="1598730552207">
+    <state x="418" y="190" width="1084" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1920.1000@0.32.1920.1000" timestamp="1599109340936" />
+    <state x="743" y="290" width="424" height="480" key="FileChooserDialogImpl" timestamp="1599109365626">
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
-    <state x="743" y="290" width="424" height="480" key="FileChooserDialogImpl/0.32.1920.1000@0.32.1920.1000" timestamp="1598730552207" />
+    <state x="743" y="290" width="424" height="480" key="FileChooserDialogImpl/0.32.1920.1000@0.32.1920.1000" timestamp="1599109365626" />
+    <state width="1872" height="261" key="GridCell.Tab.0.bottom" timestamp="1599109367585">
+      <screen x="0" y="32" width="1920" height="1000" />
+    </state>
+    <state width="1872" height="261" key="GridCell.Tab.0.bottom/0.32.1920.1000@0.32.1920.1000" timestamp="1599109367585" />
+    <state width="1872" height="261" key="GridCell.Tab.0.center" timestamp="1599109367585">
+      <screen x="0" y="32" width="1920" height="1000" />
+    </state>
+    <state width="1872" height="261" key="GridCell.Tab.0.center/0.32.1920.1000@0.32.1920.1000" timestamp="1599109367585" />
+    <state width="1872" height="261" key="GridCell.Tab.0.left" timestamp="1599109367584">
+      <screen x="0" y="32" width="1920" height="1000" />
+    </state>
+    <state width="1872" height="261" key="GridCell.Tab.0.left/0.32.1920.1000@0.32.1920.1000" timestamp="1599109367584" />
+    <state width="1872" height="261" key="GridCell.Tab.0.right" timestamp="1599109367585">
+      <screen x="0" y="32" width="1920" height="1000" />
+    </state>
+    <state width="1872" height="261" key="GridCell.Tab.0.right/0.32.1920.1000@0.32.1920.1000" timestamp="1599109367585" />
     <state x="441" y="167" key="SettingsEditor" timestamp="1598730402408">
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
     <state x="441" y="167" key="SettingsEditor/0.32.1920.1000@0.32.1920.1000" timestamp="1598730402408" />
-    <state x="555" y="268" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1598731136489">
+    <state x="555" y="268" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1598731523886">
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
-    <state x="555" y="268" width="800" height="524" key="Vcs.Push.Dialog.v2/0.32.1920.1000@0.32.1920.1000" timestamp="1598731136489" />
+    <state x="555" y="268" width="800" height="524" key="Vcs.Push.Dialog.v2/0.32.1920.1000@0.32.1920.1000" timestamp="1598731523886" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
