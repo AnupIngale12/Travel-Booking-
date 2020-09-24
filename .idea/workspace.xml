@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73694b75-d43a-4c06-8ea1-e48824486a9c" name="Default Changelist" comment="Update Code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travel/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travel/a.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travel/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travel/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travel/wsgi.py" beforeDir="false" />
-    </list>
+    <list default="true" id="73694b75-d43a-4c06-8ea1-e48824486a9c" name="Default Changelist" comment="Update Code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../College_Site/col_web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Quiz_Site/quiz" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -113,6 +106,7 @@
       <workItem from="1572953298575" duration="201000" />
       <workItem from="1572954152943" duration="638000" />
       <workItem from="1599109020599" duration="347000" />
+      <workItem from="1599111154893" duration="493000" />
     </task>
     <task id="LOCAL-00001" summary="Update Code">
       <created>1598731135523</created>
@@ -128,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598731522132</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update Code">
+      <created>1599111172990</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599111172990</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -164,10 +165,10 @@
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
     <state x="418" y="190" width="1084" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1920.1000@0.32.1920.1000" timestamp="1599109340936" />
-    <state x="743" y="290" width="424" height="480" key="FileChooserDialogImpl" timestamp="1599109365626">
+    <state x="743" y="290" width="424" height="480" key="FileChooserDialogImpl" timestamp="1599111646772">
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
-    <state x="743" y="290" width="424" height="480" key="FileChooserDialogImpl/0.32.1920.1000@0.32.1920.1000" timestamp="1599109365626" />
+    <state x="743" y="290" width="424" height="480" key="FileChooserDialogImpl/0.32.1920.1000@0.32.1920.1000" timestamp="1599111646772" />
     <state width="1872" height="261" key="GridCell.Tab.0.bottom" timestamp="1599109367585">
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
@@ -188,10 +189,10 @@
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
     <state x="441" y="167" key="SettingsEditor/0.32.1920.1000@0.32.1920.1000" timestamp="1598730402408" />
-    <state x="555" y="268" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1598731523886">
+    <state x="555" y="268" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1599111174262">
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
-    <state x="555" y="268" width="800" height="524" key="Vcs.Push.Dialog.v2/0.32.1920.1000@0.32.1920.1000" timestamp="1598731523886" />
+    <state x="555" y="268" width="800" height="524" key="Vcs.Push.Dialog.v2/0.32.1920.1000@0.32.1920.1000" timestamp="1599111174262" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
