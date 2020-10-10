@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73694b75-d43a-4c06-8ea1-e48824486a9c" name="Default Changelist" comment="Update Code" />
+    <list default="true" id="73694b75-d43a-4c06-8ea1-e48824486a9c" name="Default Changelist" comment="Update Code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +41,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Quiz_Site/quiz" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -107,6 +110,8 @@
       <workItem from="1572954152943" duration="638000" />
       <workItem from="1599109020599" duration="347000" />
       <workItem from="1599111154893" duration="493000" />
+      <workItem from="1601297862174" duration="293000" />
+      <workItem from="1601623400741" duration="158000" />
     </task>
     <task id="LOCAL-00001" summary="Update Code">
       <created>1598731135523</created>
@@ -165,26 +170,26 @@
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
     <state x="418" y="190" width="1084" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1920.1000@0.32.1920.1000" timestamp="1599109340936" />
-    <state x="743" y="290" width="424" height="480" key="FileChooserDialogImpl" timestamp="1599111646772">
+    <state x="743" y="290" width="424" height="480" key="FileChooserDialogImpl" timestamp="1601623555423">
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
-    <state x="743" y="290" width="424" height="480" key="FileChooserDialogImpl/0.32.1920.1000@0.32.1920.1000" timestamp="1599111646772" />
-    <state width="1872" height="261" key="GridCell.Tab.0.bottom" timestamp="1599109367585">
+    <state x="743" y="290" width="424" height="480" key="FileChooserDialogImpl/0.32.1920.1000@0.32.1920.1000" timestamp="1601623555423" />
+    <state width="1872" height="261" key="GridCell.Tab.0.bottom" timestamp="1601623558576">
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
-    <state width="1872" height="261" key="GridCell.Tab.0.bottom/0.32.1920.1000@0.32.1920.1000" timestamp="1599109367585" />
-    <state width="1872" height="261" key="GridCell.Tab.0.center" timestamp="1599109367585">
+    <state width="1872" height="261" key="GridCell.Tab.0.bottom/0.32.1920.1000@0.32.1920.1000" timestamp="1601623558576" />
+    <state width="1872" height="261" key="GridCell.Tab.0.center" timestamp="1601623558569">
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
-    <state width="1872" height="261" key="GridCell.Tab.0.center/0.32.1920.1000@0.32.1920.1000" timestamp="1599109367585" />
-    <state width="1872" height="261" key="GridCell.Tab.0.left" timestamp="1599109367584">
+    <state width="1872" height="261" key="GridCell.Tab.0.center/0.32.1920.1000@0.32.1920.1000" timestamp="1601623558569" />
+    <state width="1872" height="261" key="GridCell.Tab.0.left" timestamp="1601623558569">
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
-    <state width="1872" height="261" key="GridCell.Tab.0.left/0.32.1920.1000@0.32.1920.1000" timestamp="1599109367584" />
-    <state width="1872" height="261" key="GridCell.Tab.0.right" timestamp="1599109367585">
+    <state width="1872" height="261" key="GridCell.Tab.0.left/0.32.1920.1000@0.32.1920.1000" timestamp="1601623558569" />
+    <state width="1872" height="261" key="GridCell.Tab.0.right" timestamp="1601623558575">
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
-    <state width="1872" height="261" key="GridCell.Tab.0.right/0.32.1920.1000@0.32.1920.1000" timestamp="1599109367585" />
+    <state width="1872" height="261" key="GridCell.Tab.0.right/0.32.1920.1000@0.32.1920.1000" timestamp="1601623558575" />
     <state x="441" y="167" key="SettingsEditor" timestamp="1598730402408">
       <screen x="0" y="32" width="1920" height="1000" />
     </state>
